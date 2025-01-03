@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    height: 100rem;
+    overflow-x: hidden;
+}
+
+.carousel {
+    width: 100vw;
+    height: 100vh;
+}
+
+.carousel-inner {
+    width: 100vw;
+    height: 100vh;
+}
+
+.carousel-item img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 7%;
+}
